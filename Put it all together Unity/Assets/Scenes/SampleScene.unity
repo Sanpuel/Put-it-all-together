@@ -870,6 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025a9e5fbbef1f44d838bafc5376131f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runspeed: 5
 --- !u!1 &1836336556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2845,17 +2846,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -845798848625811023, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -845798848625811023, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300096, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.17
+      value: -4.151
       objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.87
+      value: 1.845
       objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2893,20 +2902,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Offset.x
-      value: -0.020026004
+      value: -0.0024347897
       objectReference: {fileID: 0}
     - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Size.x
-      value: 0.64015585
+      value: 0.55806357
       objectReference: {fileID: 0}
     - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Size.y
-      value: 0.70541847
+      value: 0.693417
       objectReference: {fileID: 0}
     - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Offset.y
+      value: 0.06630828
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
