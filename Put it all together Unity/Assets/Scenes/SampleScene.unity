@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 749458727}
   - component: {fileID: 749458726}
   - component: {fileID: 749458725}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,24 +853,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1817278302 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1951562076572300096, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-  m_PrefabInstance: {fileID: 1951562074897663006}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1817278303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817278302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025a9e5fbbef1f44d838bafc5376131f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runspeed: 5
 --- !u!1 &1836336556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,14 +2828,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -845798848625811023, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -845798848625811023, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300096, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2900,34 +2874,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1951562076572300097, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0024347897
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Size.x
-      value: 0.55806357
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Size.y
-      value: 0.693417
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.06630828
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728144163124864139, guid: da48a72fae2c5af4fb23bd59b0207de9, type: 3}
-      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
